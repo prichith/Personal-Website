@@ -1,0 +1,65 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "sans-serif";
+}
+body{
+    background-color: #FFF;
+}
+.container{
+    max-width: 1200px;
+    margin: 0px auto;
+}
+.headerButtons{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+header{
+    padding: 10px 20px;
+    /* background-color: yellow; */
+    /* display: flex; */
+}
+.logo{
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+}
+.headerButtons button{
+    padding: 10px 15px;
+    border-radius: 10px;
+    font-size: 19px;
+    background-color: inherit;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+button{
+    border: unset;
+    background-color: inherit;
+}
+.btnFilled{
+    border: 1px solid #6e07f3;
+    color: #6e07f3;
+    font-weight: 600;
+}
+.btnResume{
+    font-weight: 600;
+    color: #141c3a;
+    /* font-size: 14px; */
+}
+.domain{
+    text-align: center;
+    margin-top: 110px;
+    color: #141c3a;
+    font-size: 50px;
+}
+.subDomain{
+    text-align: center;
+    margin-top: 30px; 
+    color: #141c3a;
+    font-size: 25px;
+}
