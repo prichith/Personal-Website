@@ -12,6 +12,7 @@ body{
     max-width: 1200px;
     margin: 0px auto;
 }
+/* header */
 .headerButtons{
     display: flex;
     align-items: center;
@@ -24,7 +25,7 @@ header{
 }
 .logo{
     width: 80px;
-    height: 80px;
+    height: 60px;
     border-radius: 100%;
 }
 .headerButtons button{
@@ -51,6 +52,8 @@ button{
     color: #141c3a;
     /* font-size: 14px; */
 }
+/* END header */
+/* Banner */
 .domain{
     text-align: center;
     margin-top: 110px;
@@ -78,10 +81,13 @@ button{
     padding-left: 50px;
     padding-right: 50px;
 }
+/* END Banner */
+/* About me */
 .aboutMe{
     background-color: #6e07f3;
     text-align: center;
     color: white;
+    /* position: relative; */
 }
 .heading{
     font-size: 30px;
@@ -97,3 +103,30 @@ button{
     line-height: 35px;
     padding-bottom: 270px;
 }
+/* END About me */
+/* Domain section */
+.domainSection{
+    position: absolute;
+    top: 60px;
+}
+.domainLogo{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.groupingDomain{
+    position: absolute;
+    top: 1430px;
+    width: 100%;
+}
+.myDomain{
+    width: 50%;
+    height: 80px;
+    background-color: red;
+}
+.groupingDomain .container{
+    background-color: #FFF;
+}
+
+/* END Domain section */
