@@ -5,8 +5,15 @@
     box-sizing: border-box;
     font-family: "sans-serif";
 }
+a{
+    text-decoration: none;
+}
 body{
     background-color: #FFF;
+}
+:root{
+    --primary_color : #6e07f3;
+    --secondary_color: #141c3a;
 }
 .container{
     max-width: 1200px;
@@ -43,13 +50,13 @@ button{
     background-color: inherit;
 }
 .btnFilled{
-    border: 1px solid #6e07f3;
-    color: #6e07f3;
+    border: 1px solid var(--primary_color);
+    color: var(--primary_color);
     font-weight: 600;
 }
 .btnResume{
     font-weight: 600;
-    color: #141c3a;
+    color: var(--secondary_color);
     /* font-size: 14px; */
 }
 /* END header */
@@ -57,13 +64,13 @@ button{
 .domain{
     text-align: center;
     margin-top: 110px;
-    color: #141c3a;
+    color: var(--secondary_color);
     font-size: 50px;
 }
 .subDomain{
     text-align: center;
     margin-top: 30px; 
-    color: #141c3a;
+    color: var(--secondary_color);
     font-size: 25px;
 }
 .avatar{
@@ -84,7 +91,7 @@ button{
 /* END Banner */
 /* About me */
 .aboutMe{
-    background-color: #6e07f3;
+    background-color: var(--primary_color);
     text-align: center;
     color: white;
     /* position: relative; */
@@ -112,8 +119,12 @@ button{
 .domainLogo{
     display: flex;
     justify-content: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
+}
+.designerlogo{
+    font-size: 60px;
+    background-color: lightblue;
+    border-radius: 20px;
+    padding: 10px;
 }
 .groupingDomain{
     position: absolute;
@@ -122,11 +133,68 @@ button{
 }
 .myDomain{
     width: 50%;
-    height: 80px;
-    background-color: red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 30px 30px;
+}
+.myDomain:first-child{
+    border-bottom: 2px solid #E6ECF8;
+    border-top: 2px solid #E6ECF8;
+    border-left: 2px solid #E6ECF8;
+    border-right: 2px solid #E6ECF8;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+.myDomain:nth-child(2){
+    border-bottom: 2px solid #E6ECF8;
+    border-top: 2px solid #E6ECF8;
+    border-right: 2px solid #E6ECF8;
+}
+.myDomain:last-child{
+    border-bottom: 2px solid #E6ECF8;
+    border-top: 2px solid #E6ECF8;
+    border-right: 2px solid #E6ECF8;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
 }
 .groupingDomain .container{
     background-color: #FFF;
+    display: flex;
+    border-radius: 25px;
 }
-
+.domainSubHead{
+    color: var(--primary_color) !important;
+}
+.domainDis{
+    max-width: 300px;
+    text-align: center;
+}
+.myDomain p{
+    font-size: 18px;
+    color: var(--secondary_color);
+    text-align: center;
+}
 /* END Domain section */
+/* Recent works */
+.recentWorks{
+    /* background-color: yellow; */
+    position: relative;
+    top: 875px;
+}
+.recentWorks .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.recentWorks .container h1{
+    margin-bottom: 30px;
+    color: var(--secondary_color);
+    font-size: 30px;
+}
+.recentWorks .container h2{
+    color: var(--secondary_color);
+    font-size: 21px;
+}
+/* ENDRecent works */
