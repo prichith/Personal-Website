@@ -98,6 +98,7 @@ button{
 }
 .heading{
     font-size: 30px;
+    color: #FFF;
 }
 .aboutMe .container h2{
     padding-top: 70px;
@@ -198,3 +199,16 @@ button{
     font-size: 21px;
 }
 /* ENDRecent works */
+/* collobarative */
+.collobarative .container{
+    position: relative;
+    top: 1000px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+}
+.collobarative .container h1,h2{
+    color: var(--secondary_color);
+}
+/*END collobarative  */
