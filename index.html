@@ -18,7 +18,7 @@
             <img class="logo" src="images/logo3.png"/>
             <div class="headerButtons">
                 <button class="btnResume">Download Resume</button>
-                <button class="btnFilled">Say Hello</button>
+                <button onclick="hellopage()" class="btnFilled">Say Hello</button>
             </div>
         </div>
     </header>
@@ -89,7 +89,7 @@
     <div class="recentWorks">
         <div class="container">
             <h1>My Recent Work</h1>
-            <h2>Here are a few past design projects I've worked on. Want to see more? <a href="#">Email me</a>.</h2>
+            <h2>Here are a few past design projects I've worked on. Want to see more? <a href="mailto:prichith@gmail.com">Email me</a>.</h2>
         </div>
     </div>
     <!-- END Recent works -->
@@ -98,7 +98,7 @@
         <div class="container">
             <h1>Interested in collaborating with me?</h1>
             <h2>I’m always open to discussing product design work or partnership opportunities.</h2>   
-            <div class="conversation"><i class="fa-regular fa-message"></i>Start a conversation</div>
+            <div onclick="conversationPage()" class="conversation"><i class="fa-regular fa-message"></i>Start a conversation</div>
         </div>
     </div>
     <!--END Collobarative -->
@@ -108,22 +108,22 @@
             <div class="startaProject">
                 <h1>Start a project</h1>
                 <p>Interested in working together? We should queue up a time to chat. I’ll buy the coffee.</p>
-                <span class="projectBtn"><i class="fa-solid fa-handshake-simple"></i>Let's Do It</span>
+                <span onclick="projectPage()" class="projectBtn"><i class="fa-solid fa-handshake-simple"></i>Let's Do It</span>
             </div>
             <div class="footerlogo">
                 <img class="logo" src="images/logo3.png" alt="myLogo">
             </div>
             <h1 class="opacity">Living, learning, & leveling up one day at a time.</h1>
             <div class="socialmedia">
-                <i class="fa-brands fa-linkedin-in"></i>
-                <i class="fa-brands fa-facebook"></i>
-                <i class="fa-brands fa-square-github"></i>
-                <i class="fa-brands fa-instagram"></i>
+                <i onclick="linkedin()" class="fa-brands fa-linkedin-in"></i>
+                <i onclick="facebook()" class="fa-brands fa-facebook"></i>
+                <i onclick="github()" class="fa-brands fa-square-github"></i>
+                <i onclick="instagram()" class="fa-brands fa-instagram"></i>
             </div>
         </div>
     </div>
     <!-- END Footer -->
 
-
+<script src="script.js"></script>
 </body>
 </html>
