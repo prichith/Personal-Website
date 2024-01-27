@@ -1,4 +1,3 @@
-
 *{
     margin: 0px;
     padding: 0px;
@@ -14,7 +13,10 @@ body{
 :root{
     --primary_color : #6e07f3;
     --secondary_color: #141c3a;
+    --underline: #e7d8d8;
 }
+
+/* ***************     Main Page     ******************** */
 .container{
     max-width: 1200px;
     margin: 0px auto;
@@ -252,7 +254,6 @@ button{
     font-size: 30px;
     max-width: 380px;
     text-align: center;
-    /* opacity: 0.8; */
 }
 .socialmedia{
     width: 100%;
@@ -326,3 +327,121 @@ button{
     opacity: .8;
 }
 /* END Footer */
+/* ***************    END Main Page     ******************** */
+/* ***************    Say Hello Page     ******************** */
+.underline{
+    border-bottom: 1px solid var(--underline);
+}
+.helloHeader{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.helloheaderBtn{
+    display: flex;
+    gap: 45px;
+    padding-right: 30px;
+}
+.helloheaderBtn button i{
+    font-size: 20px;
+    color: var(--primary_color);
+}
+.heading{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    position: relative;
+}
+.heading img{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: -55px;
+}
+.heading h1{
+    color: var(--secondary_color);
+    font-size: 39px;
+    text-align: center;
+    line-height: 55px;
+    padding-top: 100px;
+}
+.form .container form{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 40px;
+}
+.message{
+    display: flex;
+}
+.nameEmail{
+    display: flex;
+    gap: 30px;
+}
+.form{
+    max-width: 600px;
+    /* background-color: yellow; */
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+.formName{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.formName input{
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    border: 1px solid var(--underline);
+    padding: 15px;
+    font-size: 18px;
+    color: var(--secondary_color);
+}
+.formMessage{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;  
+}
+.formMessage input{
+    height: 150px;
+    border-radius: 5px;
+    border: none;
+    border: 1px solid var(--underline);
+    padding: 15px;
+    font-size: 18px;
+    color: var(--secondary_color);
+}
+.formMessage textarea{
+    height: 180px;
+    border: none;
+    border: 1px solid var(--underline);
+    padding: 15px;
+    font-size: 18px;
+    border-radius: 5px;
+}
+.form div label{
+    color: var(--secondary_color);
+    font-size: 20px;
+}
+.form button{
+    border: 1px solid var(--primary_color);
+    width: 130px;
+    padding: 13px 0px;
+    border-radius: 16px;
+    font-size: 20px;
+    color: var(--primary_color);
+    margin-left: auto;
+    margin-right: auto;
+}
+.form button:hover{
+    background-color: var(--primary_color);
+    color: #FFF;
+}
+/* ***************   END Say Hello Page     ******************** */
