@@ -31,3 +31,12 @@
         document.getElementById("message").value = ""
     }
 // END Hello page
+// Conversation Form
+    function clearConversationForm(){
+        document.getElementById("name").value = ""
+        document.getElementById("email").value = ""
+        document.getElementById("project").value = ""
+        document.getElementById("interest").value = ""
+        document.getElementById("convDetails").value = ""
+    }
+// END Conversation Form
