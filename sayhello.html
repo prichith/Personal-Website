@@ -32,7 +32,7 @@
     </div>
     <!-- END Heading -->
     <!-- Form -->
-    <div class="form">
+    <div class="form" action="/helloFormSubmit">
         <div class="container">
             <form class="form">
                 <div class="nameEmail">
@@ -46,10 +46,10 @@
                     </div>
                 </div>
                 <div class="message formMessage">
-                    <label id="message">Message</label>
-                    <textarea id="message" name="message"></textarea>                         
+                    <label for="helloMessage">Message</label>
+                    <textarea id="helloMessage" name="helloMessage"></textarea>                         
                 </div>
-                <button>Submit</button>
+                <button onclick="helloFormSubmit()">Submit</button>
             </form>
         </div>
     </div>

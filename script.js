@@ -28,7 +28,7 @@
     function helloFormClear(){
         document.getElementById("name").value = ""
         document.getElementById("email").value = ""
-        document.getElementById("message").value = ""
+        document.getElementById("helloMessage").value = ""
     }
 // END Hello page
 // Conversation Form
@@ -40,3 +40,12 @@
         document.getElementById("convDetails").value = ""
     }
 // END Conversation Form
+// Project Page
+    function projectFormClear(){
+        document.getElementById("name").value = ""
+        document.getElementById("email").value = ""
+        document.getElementById("projectType").value = ""
+        document.getElementById("budget").value = ""
+        document.getElementById("projectDetails").value = ""
+    }
+// END Project Form

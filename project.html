@@ -17,7 +17,7 @@
         <div class="container helloHeader">
             <img class="logo" src="images/logo3.png"/>
             <div class="helloheaderBtn">
-                <button><i class="fa-solid fa-rotate-right"></i></button>
+                <button onclick="projectFormClear()"><i class="fa-solid fa-rotate-right"></i></button>
                 <button onclick="returnback()"><i class="fa-solid fa-xmark"></i></button>
             </div>
         </div>
@@ -47,17 +47,17 @@
                 </div>
                 <div class="nameEmail">
                     <div class="formName">
-                        <label for="name">Type of project</label>
-                        <input type="text" id="name"/>                        
+                        <label for="projectType">Type of project</label>
+                        <input type="text" id="projectType"/>                        
                     </div>
                     <div class="formName">
-                        <label for="text">Budget</label>
-                        <input type="email" id="email"/>                         
+                        <label for="budget">Budget</label>
+                        <input type="text" id="budget"/>                         
                     </div>
                 </div>
                 <div class="message formMessage">
-                    <label for="message">Additional details</label>
-                    <textarea id="message" name="multiliner"></textarea>                         
+                    <label for="projectDetails">Additional details</label>
+                    <textarea id="projectDetails" name="projectDetails"></textarea>                         
                 </div>
                 <button>Submit</button>
 
