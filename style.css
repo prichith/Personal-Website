@@ -187,7 +187,7 @@ button{
 /* Recent works */
 .recentWorks{
     position: relative;
-    top: 875px;
+    top: 660px;
 }
 .recentWorks .container{
     display: flex;
@@ -203,8 +203,55 @@ button{
     color: var(--secondary_color);
     font-size: 21px;
 }
-/* ENDRecent works */
+.myProjectsGrouping{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    margin-top: 60px;
+    height: 250px;
+}
+.myproject{
+    border: 1px solid #e0dddd;
+    border-radius: 8px; 
+    background-color: #141c3a; 
+    display: flex;
+    position: relative;
+}
+.myproject button{
+    position: absolute;
+    top: 82%;
+    left: 42%;
+    color: white;
+    border: none;
+    border: 1px solid var(--primary_color);
+    padding: 8px 12px;
+    border-radius: 5px;
+    background-color: var(--primary_color);
+    font-weight: 600;
+    display: none;
+    z-index: 1;
+    /* transition: ease-in 4000ms; */
+}
+.myproject button:hover{
+    cursor: pointer;
+   
+}
+.myproject img{
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+}
+.myproject img:hover{
+    opacity: 0.7;
+}
+.myproject:hover{
+    border: 1px solid #9e88ba;
+}
+/* END Recent works */
 /* collobarative */
+.collobarative{
+    margin-top: -180px;
+}
 .collobarative .container{
     position: relative;
     top: 1000px;
@@ -271,10 +318,26 @@ button{
     font-size: 25px;
 }
 .socialmedia i:hover{
-    background-color: #FFF;
-    border: 1px solid #FFF;
-    color: var(--primary_color);
+    /* background-color: #FFF; */
+    /* border: 1px solid #FFF; */
+    /* color: var(--primary_color); */
     cursor: pointer;
+}
+.socialmedia i:first-child:hover{
+    background-color: #0a66c2;
+    border: 1px solid #0a66c2;
+}
+.socialmedia i:nth-child(2):hover{
+    background-color: #0866ff;
+    border: 1px solid #0866ff;
+}
+.socialmedia i:nth-child(3):hover{
+    background-color: #FFF;
+    color: black;
+}
+.socialmedia i:last-child:hover{
+    background-color: #C13584;
+    border: 1px solid #C13584;
 }
 .footerlogo{
     border: 1px solid white;
@@ -326,7 +389,7 @@ button{
 }
 /* END Footer */
 /* ***************    END Main Page     ******************** */
-/* ***************    Say Hello Page     ******************** */
+/* ***************    Say Hello Page     ******************* */
 .underline{
     border-bottom: 1px solid var(--underline);
 }

@@ -20,6 +20,39 @@
     function facebook(){
         window.location.href = "https://www.facebook.com/prichith.cp.50";
     }
+    // My Project Section
+        // function Pro1Hover(number){
+        //     `document.getElementById("pro${number}").style.display="block"`
+        // }
+        function Pro1Hover(){
+            document.getElementById("pro1").style.display="block"
+            document.getElementById("pro1").style.transition="ease 4000ms"
+        }
+        function Pro2Hover(){
+            document.getElementById("pro2").style.display="block"
+        }
+        function Pro3Hover(){
+            document.getElementById("pro3").style.display="block"
+        }
+        function hideBtn1(){
+            document.getElementById("pro1").style.display="none"
+        }
+        function hideBtn2(){
+            document.getElementById("pro2").style.display="none"
+        }
+        function hideBtn3(){
+            document.getElementById("pro3").style.display="none"
+        }
+        function responsive(){
+            window.location.href="https://prichith.github.io/ResponsiveWebsite_morethan5BreakPoints/"
+        }
+        function zomato(){
+            window.location.href="https://prichith.github.io/ZomatoCloneWebsite/"
+        }
+        function visitWebsite3(){
+            window.location.href="https://prichith.github.io/ResponsiveWebsite_morethan5BreakPoints/"
+        }
+    // END My Project Section
 // End Main Page
 // Hello page
     function returnback(){
