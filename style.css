@@ -557,7 +557,7 @@ h2 {
         padding: 30px 30px;
     }
     .myDomain {
-        width: 80%;
+        width: 90%;
         border: 2px solid #e6ecf8 !important;
         border-radius: 5px !important;
     }
@@ -601,9 +601,38 @@ h2 {
     .myproject button {
         top: unset;
         bottom: 15px;
-        left: 100px !important;
+        /* left: 100px !important; */
+        left: 30% !important;
     }
     .myproject {
         background-color: unset;
+    }
+    .collobarative .container {
+        padding: 0px 20px;
+        top: 405px;
+    }
+    .collobarative .container h1, h2 {
+        color: var(--secondary_color);
+        font-size: 20px;
+    }
+    .footer {
+        top: 450px;
+    }
+    .startaProject {
+        padding: 25px 25px;
+        top: 21px;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .footer .container h1 {
+        font-size: 21px;
+    }
+    .footer .container {
+        padding: 330px 20px 20px 20px;
+    }
+    .footerlogo {
+        height: 50px;
+        width: 50px;
+        padding: 25px;
     }
 }
