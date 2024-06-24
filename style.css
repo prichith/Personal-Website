@@ -224,7 +224,8 @@ button {
 .myproject button {
   position: absolute;
   top: 82%;
-  left: 42%;
+  /* left: 42%; */
+  left: 35%;
   color: white;
   border: none;
   border: 1px solid var(--primary_color);
