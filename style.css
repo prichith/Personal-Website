@@ -601,7 +601,7 @@ h2 {
     .myproject button {
         top: unset;
         bottom: 15px;
-        left: 100px;
+        left: 100px !important;
     }
     .myproject {
         background-color: unset;
