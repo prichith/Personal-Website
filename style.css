@@ -513,20 +513,18 @@ h2 {
 
 /* Media Query */
 @media screen and (max-width: 480px) {
+/* @media screen (max-width: 480px) { */
     .headerButtons button{
-        font-size: 15px;
+        padding: 6px 10px !important;
+        border-radius: 6px;
+        font-size: 13px !important;
+        background-color: inherit;
+        cursor: pointer;
     }
     .logo {
         width: 60px;
         height: 40px;
         border-radius: 100%;
-    }
-    .headerButtons button {
-        padding: 6px 15px;
-        border-radius: 6px;
-        font-size: 19px;
-        background-color: inherit;
-        cursor: pointer;
     }
     .domain {
         margin-top: 30px;
