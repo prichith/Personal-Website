@@ -601,7 +601,6 @@ h2 {
     .myproject button {
         top: unset;
         bottom: 15px;
-        /* left: 100px !important; */
         left: 30% !important;
     }
     .myproject {
@@ -635,4 +634,26 @@ h2 {
         width: 50px;
         padding: 25px;
     }
+    /* hello section */
+    .nameEmail {
+        flex-direction: column;
+    }
+    
+.heading img {
+    top: 0px;
+}
+.heading h1 {
+    font-size: 25px;
+    line-height: 35px;
+    padding-top: 115px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.form {
+    margin-top: 0px;
+}
+.form .container form {
+    padding: 40px 20px;
+}
+
 }
