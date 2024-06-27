@@ -210,7 +210,7 @@ button {
 .myProjectsGrouping {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  gap: 10px;
+  gap: 15px;
   margin-top: 60px;
   height: 250px;
 }
@@ -220,6 +220,7 @@ button {
   background-color: #141c3a;
   display: flex;
   position: relative;
+  cursor: pointer;
 }
 .myproject button {
   position: absolute;
