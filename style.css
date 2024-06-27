@@ -217,7 +217,7 @@ button {
 .myproject {
   border: 1px solid #e0dddd;
   border-radius: 8px;
-  background-color: #141c3a;
+  background-color: var(--primary_color);
   display: flex;
   position: relative;
   cursor: pointer;

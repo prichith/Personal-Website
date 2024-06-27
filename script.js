@@ -21,35 +21,30 @@ function facebook() {
   window.location.href = "https://www.facebook.com/prichith.cp.50";
 }
 
-function Pro1Hover() {
-  document.getElementById("pro1").style.display = "block";
-  document.getElementById("pro1").style.transition = "ease 4000ms";
-}
-function Pro2Hover() {
-  document.getElementById("pro2").style.display = "block";
-}
-function Pro3Hover() {
-  document.getElementById("pro3").style.display = "block";
-}
-function hideBtn1() {
-  document.getElementById("pro1").style.display = "none";
-}
-function hideBtn2() {
-  document.getElementById("pro2").style.display = "none";
-}
-function hideBtn3() {
-  document.getElementById("pro3").style.display = "none";
-}
 function responsive() {
-  window.location.href = "https://prichith.github.io/Responsive-Website/";
+  window.location.href =
+    "https://www.linkedin.com/posts/prichith-c-p-3047a7220_webdesign-responsivedesign-activity-7185337685664755712-XwJI?utm_source=share&utm_medium=member_desktop";
 }
 function zomato() {
-  window.location.href = "https://prichith.github.io/ZomatoCloneWebsite/";
-}
-function visitWebsite3() {
   window.location.href =
-    "https://prichith.github.io/ResponsiveWebsite_morethan5BreakPoints/";
+    "https://www.linkedin.com/posts/prichith-c-p-3047a7220_revisiting-my-coding-roots-reflecting-on-activity-7182232267497390080-KC6q?utm_source=share&utm_medium=member_desktop";
 }
+function employeeManagement() {
+  window.location.href =
+    "https://www.linkedin.com/posts/prichith-c-p-3047a7220_employeemanagement-nodejs-express-activity-7192605208181379074-rUzU?utm_source=share&utm_medium=member_desktop";
+}
+function blog() {
+  window.location.href =
+    "https://www.linkedin.com/posts/prichith-c-p-3047a7220_react-nodejs-mongodb-activity-7197975610583900160-96hD?utm_source=share&utm_medium=member_desktop";
+}
+function contactList() {
+  window.location.href =
+    "https://www.linkedin.com/posts/prichith-c-p-3047a7220_reactjs-redux-webdevelopment-activity-7200523447318319105--TCS?utm_source=share&utm_medium=member_desktop";
+}
+// function ECommerce(){
+//   window.location.href = "";
+// }
+
 // END My Project Section
 // End Main Page
 // Hello page
