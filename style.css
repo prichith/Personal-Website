@@ -609,15 +609,15 @@ h2 {
   }
   .collobarative .container {
     padding: 20px 20px;
-    top: 405px;
-  }
+    top: 860px;
+}
   .collobarative .container h1,
   h2 {
     color: var(--secondary_color);
     font-size: 20px;
   }
   .footer {
-    top: 450px;
+    top: 860px;
   }
   .startaProject {
     padding: 25px 25px;
